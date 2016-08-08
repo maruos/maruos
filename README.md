@@ -31,3 +31,8 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
 ## Shoutouts
 
 Maru wouldn't have been possible without the hard work from a lot of people in the open source community. Special thanks to [AOSP](https://source.android.com), [Debian GNU/Linux](https://www.debian.org), and [LXC](https://linuxcontainers.org).
+
+## Licensing
+
+Most of the code is licensed under the Apache License, Version 2.0. See each
+repository's licensing information for details and exceptions.
