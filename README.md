@@ -8,9 +8,7 @@ To be more precise, Maru is an operating system that enables interactive virtual
 
 ## Structure
 
-Maru is a fairly large project with code split across several repositories.
-
-AOSP bits are usually prefixed with android_.
+Maru is a fairly large project with code split across several repositories. You can browse through them [here](https://github.com/maruos).
 
 ## Getting involved
 
@@ -26,7 +24,7 @@ File them as issues on this repository.
 
 ### Contribute
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for the details.
+Check out the [wiki](https://github.com/maruos/maruos/wiki) to get started.
 
 ## Shoutouts
 
