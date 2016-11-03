@@ -1,5 +1,39 @@
 # Changelog
 
+## v0.3 (2016-11-03)
+
+### Features
+
+* Upgrade from Lollipop (5.1.1_r14) to Marshmallow (6.0.1_r17)
+* Enable starting Maru Desktop in the background (no HDMI display needed)
+* Add option to improve resolution matching support for non-1080p displays under
+  Settings > Desktop > Tweaks
+
+### Fixes
+
+* Fix desktop screen occasionally showing up on phone display
+* Fix DPI issues that sometimes render fonts weirdly
+
+### Changes
+
+* Enable SSH services in Maru Desktop by default
+* Use Firefox ESR as the default browser in Maru Desktop
+* Set the root account password to 'root' in Maru Desktop
+
+### Upgrade Notices
+
+When upgrading Maru OS without a factory reset (see [Upgrading: Option 2](https://github.com/maruos/maruos/wiki/Upgrading#option-2-install-the-update-zip-without-a-factory-reset)), please be aware of the following.
+
+#### New sdcard access permissions
+
+A new group must be added in Maru Desktop to access the sdcard mount.
+Assuming the user account is 'maru':
+
+    $ sudo addgroup --gid 1015 sdcard_rw
+    $ sudo adduser maru sdcard_rw
+
+After restarting the desktop, the sdcard mount will be accessible again.
+
 ## v0.2.4 (2016-08-24)
 
 Open-source version of v0.2.3.
