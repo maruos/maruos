@@ -1,5 +1,7 @@
 # Maru OS
 
+[![Join the chat at https://gitter.im/maruos/maruos](https://badges.gitter.im/maruos/maruos.svg)](https://gitter.im/maruos/maruos)
+
 Welcome to the Maru OS Project!
 
 [Maru](http://maruos.com) makes personal computing more context-aware by giving you the best interface for your environment. That means when you're on the go, Maru is your phone; when you're at your desk, Maru is your desktop. It's that simple!
