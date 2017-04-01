@@ -26,6 +26,10 @@
 * [TMartinPPC](https://github.com/TMartinPPC): Nexus 7 2013 Wi-Fi (flo) support
 * [NoelMacwan](https://github.com/NoelMacwan): AOSP updates for Marshmallow, including android-6.0.1_r72, android-6.0.1_r77, and android-6.0.1_r78
 
+### Update 2017-04-01
+
+* Nexus 7 2013 Wi-Fi (flo) builds updated to use minimal Maru Desktop image to free up space on system partition ([#66](https://github.com/maruos/maruos/issues/66))
+
 ## v0.3 (2016-11-03)
 
 ### Features
