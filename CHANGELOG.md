@@ -1,5 +1,31 @@
 # Changelog
 
+## v0.4.1 (2017-06-03)
+
+### Fixes
+
+* Update Mac installer binaries to fix hang on MBP 2016 ([installer#2][1])
+* Fix invalid URL in Linux installer ([#73][2])
+
+### Security
+
+* Disable sshd by default on Maru Desktop ([#76][3])
+* Lock root account on Maru Desktop ([blueprints@89195ff][4])
+* Use secure Maru APT repository for Maru Desktop ([blueprints#8][5])
+
+### Upgrade Notices
+
+When upgrading Maru without a factory reset (see [Upgrading Guide: Option 2]), you will need to [manually upgrade] your desktop system to receive the desktop security updates listed above.
+
+[1]: https://github.com/maruos/installer/issues/2
+[2]: https://github.com/maruos/maruos/issues/73
+[3]: https://github.com/maruos/maruos/issues/76
+[4]: https://github.com/maruos/blueprints/commit/89195ff66165155b7dffadfd37d5527d2f250fda
+[5]: https://github.com/maruos/blueprints/issues/8
+[6]: https://github.com/maruos/maruos/issues/76#issuecomment-302229538
+[Upgrading Guide: Option 2]: https://github.com/maruos/maruos/wiki/Upgrading#option-2-install-the-update-zip-without-a-factory-reset
+[manually upgrade]: https://github.com/maruos/maruos/wiki/Upgrading#desktop-updates-1
+
 ## v0.4 (2017-03-24)
 
 ### New
