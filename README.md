@@ -16,9 +16,9 @@ Maru is a fairly large project with code split across several repositories. You 
 
 ### Engage with the community
 
-* [maru-os Google Group](https://groups.google.com/forum/#!forum/maru-os) for general user discussion
-* [maru-os-dev Google Group](https://groups.google.com/forum/#!forum/maru-os-dev) for technical discussion
-* [@getmaru](https://twitter.com/getmaru)
+* [User Group](https://groups.google.com/forum/#!forum/maru-os) for general user discussion
+* [Developer Group](https://groups.google.com/forum/#!forum/maru-os-dev) for technical discussion
+* [Twitter](https://twitter.com/getmaru) for the latest news on Maru
 
 ### Report bugs and feature requests
 
@@ -28,11 +28,15 @@ File them as issues on this repository.
 
 Check out the [wiki](https://github.com/maruos/maruos/wiki) to get started.
 
-## Shoutouts
+## Thanks
 
-Maru wouldn't have been possible without the hard work from a lot of people in the open source community. Special thanks to [AOSP](https://source.android.com), [Debian GNU/Linux](https://www.debian.org), and [LXC](https://linuxcontainers.org).
+Maru wouldn't have been possible without the hard work from a lot of people in the open source community. Special thanks to:
 
-## Licensing
+* [AOSP](https://source.android.com)
+* [Debian GNU/Linux](https://www.debian.org)
+* [LXC](https://linuxcontainers.org)
+
+## License
 
 Most of the code is licensed under the Apache License, Version 2.0. See each
 repository's licensing information for details and exceptions.
