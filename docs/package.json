@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "Maru Documentation",
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "author": "The Maru OS Project Authors",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "vuepress": "^0.14.8"
+  }
+}
