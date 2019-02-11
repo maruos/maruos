@@ -36,7 +36,7 @@ Cons: You need to do manual back-ups of your important data. You can't keep comp
 
 0. Run the installer script by referring to the instructions below for your OS.
 
-0. Wait a few minutes for the installer to complete. The installer will print out each step it goes through to install Maru OS on your device. It will also guide you through fixing common issues such as [[enabling USB Debugging|USB-Debugging]], so just follow along. If the installation was successful, your phone will reboot and you should see a new boot splash screen with the Maru logo to indicate your first boot into Maru OS!
+0. Wait a few minutes for the installer to complete. The installer will print out each step it goes through to install Maru OS on your device. It will also guide you through fixing common issues such as [enabling USB Debugging](/user/usb-debugging.html), so just follow along. If the installation was successful, your phone will reboot and you should see a new boot splash screen with the Maru logo to indicate your first boot into Maru OS!
 
 0. Optional: [Restore Google Apps (Play Store)](https://groups.google.com/d/msg/maru-os/S8PUEqqK10M/NMI9LFUyAQAJ)
 
@@ -62,7 +62,7 @@ more details. We promise we're not malware :)*
 
 First, install the Google USB Driver to communicate with Nexus devices:
 
-0.  [[Enable USB Debugging|USB-Debugging]] on your device
+0.  [Enable USB Debugging](/user/usb-debugging.html) on your device
 
 0.  Download the driver from http://developer.android.com/sdk/win-usb.html
 
@@ -91,7 +91,7 @@ Pros: Keep your backups, works with TWRP and MultiROM
 
 Cons: Terminal commands and manual steps
 
-Prerequisites: `adb` binary in your PATH and [[TWRP installed|TWRP]]
+Prerequisites: `adb` binary in your PATH and [TWRP installed](/user/twrp.html)
 
 First, download the latest update zip for your device (it will look like `maru-v0.x-update-<device>-<sha1>.zip`) and push it to your device's sdcard:
 
@@ -100,7 +100,7 @@ Open up a terminal (Linux or Mac) or Command Prompt (Windows) and run the follow
     $ adb push -p <maru update filename>.zip /sdcard/
     $ adb reboot recovery
 
-You will now be in TWRP recovery. 
+You will now be in TWRP recovery.
 
 *Tip: This is a good time to make a complete back-up before proceeding: "Backup" > "Swipe to Backup".*
 
