@@ -4,6 +4,9 @@ module.exports = {
   base: '/docs/',
   ga: 'UA-72109002-1',
   themeConfig: {
+    repo: 'maruos/maruos',
+    docsDir: 'docs',
+    editLinks: true,
     sidebar: [
       '/',
       {
