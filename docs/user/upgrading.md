@@ -6,15 +6,15 @@ There are two ways to upgrade Maru OS.
 
 The easiest way to upgrade is to just do a fresh install with the new version. Watch out though, this will wipe all of your data, so make sure to back up anything important!
 
-See the [[Installation Guide|Installation-Guide]].
+See the [Installation Guide](installation.md).
 
 ## Option 2: Install the update zip *without* a factory reset
 
-If you have important data on your device that you would like to keep, you can flash the new version's update zip in a custom recovery like [[TWRP]]. This will only touch your system partition, so all of your data will be preserved.
+If you have important data on your device that you would like to keep, you can flash the new version's update zip in a custom recovery like [TWRP](twrp.md). This will only touch your system partition, so all of your data will be preserved.
 
 *Tip: Take a complete backup first!*
 
-Follow the normal [[update zip installation|Installation-Guide#option-2-update-zip]], **but skip the factory reset**!
+Follow the normal [update zip installation](installation.md#option-2-update-zip), **but skip the factory reset**!
 
 Make sure you also read any Upgrade Notices in the release [changelog](https://github.com/maruos/maruos/blob/master/CHANGELOG.md) that will point out version-specific upgrade issues and workarounds.
 
