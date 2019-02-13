@@ -9,7 +9,7 @@ LineageOS instructions for your specific device to supplement this guide.
 
 1. `adb` installed on your computer (see [LineageOS's
    guide](https://wiki.lineageos.org/adb_fastboot_guide.html))
-2. A custom recovery like [TWRP](twrp.html) installed on your device
+2. A custom recovery like [TWRP](twrp.md) installed on your device
 
 ## Installing Via Update Zip
 
