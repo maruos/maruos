@@ -11,7 +11,7 @@ LineageOS instructions for your specific device to supplement this guide.
    guide](https://wiki.lineageos.org/adb_fastboot_guide.html))
 2. A custom recovery like [TWRP](twrp.md) installed on your device
 
-## Installing Via Update Zip
+## Installing via update zip
 
 Maru is distributed via a standard Android update zip so you can flash Maru with a custom recovery just like any other Android ROM.
 

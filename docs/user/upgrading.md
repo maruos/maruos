@@ -1,6 +1,6 @@
 # Upgrading
 
-There are two ways to upgrade Maru OS.
+There are two ways to upgrade Maru.
 
 ## Option 1: Do a clean install
 
@@ -10,13 +10,11 @@ See the [Installation Guide](installation.md).
 
 ## Option 2: Install the update zip *without* a factory reset
 
-If you have important data on your device that you would like to keep, you can flash the new version's update zip in a custom recovery like [TWRP](twrp.md). This will only touch your system partition, so all of your data will be preserved.
+If you have important data on your device that you would like to keep, follow the normal [update zip installation](installation.md), **but skip the factory reset**!
 
-*Tip: Take a complete backup first!*
-
-Follow the normal [update zip installation](installation.md#option-2-update-zip), **but skip the factory reset**!
-
+::: warning Note
 Make sure you also read any Upgrade Notices in the release [changelog](https://github.com/maruos/maruos/blob/master/CHANGELOG.md) that will point out version-specific upgrade issues and workarounds.
+:::
 
 ### Known Issues with Option 2
 
@@ -27,10 +25,12 @@ The update process will not touch Maru Desktop if it finds an existing installat
 If you can back-up all the important data/configuration from your desktop system to a safe place (the sdcard folder for example), you can just delete the desktop folder from your device and Maru will re-sync the latest version after a reboot. Here's step-by-step instructions:
 
 1. Back up any important data
-2. Reboot to recovery
+
+2. Reboot to TWRP custom recovery:
 
         $ adb reboot recovery
-3. Open up the File Manager ("Advanced" > "File Manager")
+
+3. Open up the File Manager: `Advanced` > `File Manager`
 
 4. Navigate to `/data/maru`
 
@@ -44,6 +44,6 @@ A few minutes after reboot, Maru will sync up the new desktop image, and you can
 
 #### Gapps
 
-If you have gapps installed, you will need to re-install them after the upgrade. All of your apps (and their data) will still be there, but the Play store will freak out and disappear.
+If you have gapps installed, you may need to re-install them after the upgrade. All of your apps (and their data) will still be there, but the Play store will freak out and disappear.
 
 Just go ahead and flash the gapps zip again, add your Google account if requested, and most of your apps should work just like before. If your app still does not start properly, you will need to uninstall and reinstall the app to fix it--this has been seen with apps like Play Music or YouTube.
