@@ -13,6 +13,7 @@ module.exports = {
         title: 'User Guide',
         collapsable: false,
         children: [
+          '/user/',
           '/user/installation',
           '/user/upgrading',
           '/user/faq',
