@@ -10,6 +10,7 @@ module.exports = {
     nav: [
       { text: 'User Guide', link: '/user/' },
       { text: 'Developer Guide', link: '/developer/' },
+      { text: 'Devices', link: '/devices/' },
       { text: 'FAQ', link: '/faq/' }
     ],
     sidebar: {
@@ -18,7 +19,7 @@ module.exports = {
           title: 'User Guide',
           collapsable: false,
           children: [
-            '/user/',
+            '',
             '/user/installation',
             '/user/upgrading',
             '/user/tips',
@@ -31,10 +32,21 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            '/developer/env',
-            '/developer/download',
-            '/developer/build',
-            '/developer/porting'
+            'env',
+            'download',
+            'build',
+            'porting'
+          ]
+        }
+      ],
+      '/devices/': [
+        {
+          title: 'Devices',
+          collapsable: false,
+          children: [
+            'hammerhead',
+            'bullhead',
+            'star2lte'
           ]
         }
       ]
