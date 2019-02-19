@@ -7,30 +7,37 @@ module.exports = {
     repo: 'maruos/maruos',
     docsDir: 'docs',
     editLinks: true,
-    sidebar: [
-      '/',
-      {
-        title: 'User Guide',
-        collapsable: false,
-        children: [
-          '/user/',
-          '/user/installation',
-          '/user/upgrading',
-          '/user/faq',
-          '/user/tips',
-        ]
-      },
-      {
-        title: 'Developer Guide',
-        collapsable: false,
-        children: [
-          '/developer/',
-          '/developer/env',
-          '/developer/download',
-          '/developer/build',
-          '/developer/porting'
-        ]
-      }
-    ]
+    nav: [
+      { text: 'User Guide', link: '/user/' },
+      { text: 'Developer Guide', link: '/developer/' },
+      { text: 'FAQ', link: '/faq/' }
+    ],
+    sidebar: {
+      '/user/': [
+        {
+          title: 'User Guide',
+          collapsable: false,
+          children: [
+            '/user/',
+            '/user/installation',
+            '/user/upgrading',
+            '/user/tips',
+          ]
+        }
+      ],
+      '/developer/': [
+        {
+          title: 'Developer Guide',
+          collapsable: false,
+          children: [
+            '',
+            '/developer/env',
+            '/developer/download',
+            '/developer/build',
+            '/developer/porting'
+          ]
+        }
+      ]
+    }
   }
 }

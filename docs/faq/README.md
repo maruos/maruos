@@ -8,7 +8,7 @@ Maru is firmware for your device, so yes, it will replace your existing Android 
 
 ### How do I install Maru on my device?
 
-Read the [Installation Guide](installation.md) and you'll be up and running in no time!
+Read the [Installation Guide](../user/installation.md) and you'll be up and running in no time!
 
 ### Which devices are officially supported?
 
@@ -66,7 +66,7 @@ The very first time you pair up a bluetooth mouse you may see the cursor start t
 
 ### Can I use Maru Desktop without an external display around?
 
-Yes! You can enable SSH on Maru Desktop so you can easily access your desktop with any other computer on your local network, including your device itself from the Android side! You can also set up VNC to access the desktop graphically. See [Tips](tips.md) for more details.
+Yes! You can enable SSH on Maru Desktop so you can easily access your desktop with any other computer on your local network, including your device itself from the Android side! You can also set up VNC to access the desktop graphically. See [Tips](../user/tips.md) for more details.
 
 ### Which apps are included in Maru out of the box?
 
