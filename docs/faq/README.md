@@ -23,7 +23,7 @@ Read the [Installation Guide](../user/installation.md) and you'll be up and runn
 
 * Nexus 7 2013 Wi-Fi (flo)
 
-All storage sizes and models for each device listed above are supported unless explicitly listed.
+All storage sizes and models for each device listed above are supported unless explicit models are listed.
 
 We also have early alpha/beta community builds that are looking for testers, head over to our [device port thread](https://groups.google.com/d/msg/maru-os-dev/YufKu3w2xkQ/9qPEp9EiAQAJ) to check their status.
 
@@ -38,15 +38,17 @@ forum](https://groups.google.com/forum/#!forum/maru-os-dev).
 
 Keep in mind that the best Maru experience requires hardware HDMI support via either [SlimPort](http://us.slimportconnect.com/slimport-supported-devices/) or [MHL](http://www.mhltech.org/devices.aspx) for displaying the desktop on an external display, so SlimPort and MHL devices will be given first priority.
 
+### What about devices without HDMI support?
+
+Devices without hardware HDMI support (SlimPort or MHL) have a few options for displaying Maru Desktop:
+
+* **Wireless display streaming**: This is officially tested on Chromecast, although other wireless adapters *should* work as long as they are supported by Android (Miracast has been confirmed to work by some of our users). Note that you may need to [restore Google Apps](TODO) to use this feature with Chromecast.
+
+* **DisplayLink**: DisplayLink can stream content to an external display over USB without the requirement for HDMI hardware built into the device, although it requires a DisplayLink dock and installation of the DisplayLink Android app. This has been confirmed to work by our users on devices without HDMI support.
+
 ### Which cable/adapter should I use to connect my SlimPort device to an HDMI screen?
 
 You will need a SlimPort USB-to-HDMI cable with a USB charging dongle. You can find a list of officially supported adapters [here](https://maruos.com/accessories/). It’s important that the adapter offers a dongle for charging your device simultaneously since desktop workloads are more taxing on your device’s battery.
-
-### What about wireless streaming for devices without HDMI support?
-
-From Maru 0.6 up, you get wireless display support out of the box that has been
-tested with DisplayLink and Chromecast. This is a new feature, so expect some
-rough edges.
 
 ### Can I charge my device while plugged in to a monitor?
 
@@ -54,7 +56,7 @@ Yes! We highly encourage you to keep your device charged when using Maru Desktop
 
 ### How do I prevent my HDMI display from blanking every time my device sleeps?
 
-Make sure that your device is connected to power so that it enters Daydream mode when your screen times out--this will keep your HDMI display powered on while the device displays a clock screensaver. See [above](#can-i-charge-my-device-while-plugged-in-to-a-monitor).
+Make sure that your device is connected to power so that it enters Daydream mode when your screen times out—this will keep your HDMI display powered on while the device displays a clock screensaver. See [above](#can-i-charge-my-device-while-plugged-in-to-a-monitor).
 
 ### Which bluetooth keyboard and mouse should I use with Maru?
 
@@ -73,8 +75,6 @@ Yes! You can enable SSH on Maru Desktop so you can easily access your desktop wi
 The following Android apps are included for a minimal smartphone environment: Browser, Calculator, Calendar, Camera, Clock, Contacts, Files, Email, Gallery, Music, Phone, Messaging, Settings. You can [install the Play Store](#how-can-i-get-access-to-the-play-store-on-maru) to add more apps as needed.
 
 Maru Desktop is very minimal out of the box to save space, but includes essential tools like Terminal, Firefox, and more. You can use `apt-get` on the desktop to install more apps, like LibreOffice.
-
-Please note that the set of default apps may change for new versions of Maru.
 
 ### How much extra space will Maru use on my device relative to standard Android?
 
@@ -114,7 +114,7 @@ Maru does not include the Play store out of the box. If you would like to restor
 
 ### How can I verify that my Maru image hasn't been corrupted or tampered with?
 
-Please verify your image's SHA256 checksum matches the checksum file for your
+Please verify your image's SHA-256 checksum matches the checksum file for your
 device.
 
 You can easily do this in Linux or Mac by downloading the update zip and
@@ -123,3 +123,11 @@ checksum file for your device to the same directory, navigating to the download 
 ```
 $ shasum -c maru-v0.x.x-sha256sums-device.txt
 ```
+
+### How can I support Maru?
+
+Thank you for asking! You can support Maru by installing it on your device, spreading the word and showing it off to your friends, helping test new devices, and reporting bugs. You can also financially support the project by paying for the value you get from Maru or becoming a backer on Patreon. You can find all the ways you can support Maru [here](https://maruos.com/support-maru/). Any support is much appreciated!
+
+### Where can I get help?
+
+The best way to get help is to post in our [user forum](https://groups.google.com/forum/#!forum/maru-os). We have a large, knowledgeable, and friendly community that will help point you in the right direction.
