@@ -42,8 +42,8 @@ If you can back-up all the important data/configuration from your desktop system
 
 A few minutes after reboot, Maru will sync up the new desktop image, and you can then start the desktop like usual. If you backed up any data, you can restore it at this point too.
 
-#### Gapps
+#### Google Apps
 
-If you have gapps installed, you may need to re-install them after the upgrade. All of your apps (and their data) will still be there, but the Play store will freak out and disappear.
+If you have Google Apps installed, you may need to re-install them after the upgrade. All of your apps (and their data) will still be there, but the Play store will freak out and disappear.
 
-Just go ahead and flash the gapps zip again, add your Google account if requested, and most of your apps should work just like before. If your app still does not start properly, you will need to uninstall and reinstall the app to fix it--this has been seen with apps like Play Music or YouTube.
+Just go ahead and flash the Google Apps zip again, add your Google account if requested, and most of your apps should work just like before. If your app still does not start properly, you will need to uninstall and reinstall the app to fix it--this has been seen with apps like Play Music or YouTube.
