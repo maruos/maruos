@@ -60,13 +60,13 @@ When you are ready to install Maru, do the following:
 
 10. Tap `Reboot System`
 
-::: warning
+::: warning Note
 You may be asked to install SuperSU to root your device. If you know what
 rooting your device means and want to have it rooted then go ahead. Otherwise,
 it's best to tap "Do Not Install".
 :::
 
-Regardless of your installation method, the first boot will take 2-3 minutes so please be patient.
+Regardless of your installation method, the first boot will take a few minutes so please be patient.
 
 ## Accessories
 
