@@ -56,6 +56,10 @@ You will now be in TWRP recovery.
     * Tap the ARI9 vendor zip
     * Swipe right to confirm flash of the vendor zip
 
+    ::: warning Note
+    You must always flash the vendor zip every time you flash a new Maru image, including when you update to a newer build.
+    :::
+
 8. Go back and flash the Maru update zip you downloaded earlier
     * Tap the Maru update zip (you may need to scroll down)
     * Swipe right to confirm flash of the Maru zip
@@ -66,21 +70,19 @@ You will now be in TWRP recovery.
 
 11. Tap `Reboot System`
 
-::: warning
-You may be asked to install SuperSU to root your device. If you know what
-rooting your device means and want to have it rooted then go ahead. Otherwise,
-it's best to tap "Do Not Install".
-:::
+    ::: warning Note
+    You may be asked to install SuperSU to root your device. If you know what
+    rooting your device means and want to have it rooted then go ahead. Otherwise,
+    it's best to tap "Do Not Install".
+    :::
 
-Regardless of your installation method, the first boot will take 2-3 minutes so please be patient.
+Regardless of your installation method, the first boot will take a few minutes so please be patient.
 
 ## Accessories
 
 ### HDMI Adapters / Docks
 
-::: warning TODO
-Add adapters and docks known to work.
-:::
+* Samsung DeX Pad for S9/S9+ ([Amazon](https://amzn.to/2V9dEBM))
 
 ### Keyboards / Mice
 
