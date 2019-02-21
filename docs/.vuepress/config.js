@@ -38,17 +38,6 @@ module.exports = {
             'porting'
           ]
         }
-      ],
-      '/devices/': [
-        {
-          title: 'Devices',
-          collapsable: false,
-          children: [
-            'hammerhead',
-            'bullhead',
-            'star2lte'
-          ]
-        }
       ]
     }
   }

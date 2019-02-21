@@ -1,4 +1,5 @@
 ---
+sidebar: auto
 prev: false
 next: false
 ---
