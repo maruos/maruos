@@ -85,6 +85,16 @@ Please use a wireless adapter instead.
 
 * See [official accessories](https://maruos.com/accessories/)
 
+## Known issues
+
+### Screen goes blank when changing resolutions within Maru Desktop for the first time
+
+[GitHub issue](https://github.com/maruos/mflinger/issues/2)
+
+If you change display resolution for the very first time (for example, you may need to switch to 720p from the default 1080p when streaming to Chromecast) within Maru Desktop via `Applications > Settings > Display > Resolution`, your display will go black and only show your mouse cursor.
+
+**Workaround:** Simply restart your desktop (`Settings > Desktop` within Android) and your desktop will start with the new resolution. Note that this issue only occurs the very first time—you should not need to apply this workaround when changing resolutions again.
+
 ## Help
 
 * Ask for help on the [user forum](https://groups.google.com/forum/#!forum/maru-os)
