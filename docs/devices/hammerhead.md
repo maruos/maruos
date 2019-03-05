@@ -21,6 +21,8 @@ The trusty old Nexus 5 was the first device to run Maru and remains Maru's most 
 
 1. [Download](https://maruos.com/downloads/) the latest update zip for your device (it will look like `maru-v0.x.y-update-hammerhead-<sha256>.zip`)
 
+    * (Optional) If you would like to [restore access to the Play store](../user/google-apps.md), you can download a third-party Google Apps zip and install it alongside Maru during this installation process.
+
 2. Push the update zip to your device by opening up a terminal (Linux or Mac) or Command Prompt (Windows) and running the following:
 
 ```

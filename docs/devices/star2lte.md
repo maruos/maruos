@@ -22,6 +22,8 @@ Please carefully follow the official TWRP installation guide for the Samsung S9/
 
 1. [Download](https://maruos.com/downloads/) the latest update zip for your device (it will look like `maru-v0.x.y-update-star2lte-<sha256>.zip`)
 
+    * (Optional) If you would like to [restore access to the Play store](../user/google-apps.md), you can download a third-party Google Apps zip and install it alongside Maru during this installation process.
+
 2. Download [ARI9 vendor zip](https://androidfilehost.com/?fid=11410932744536982158)
 
 3. Push the files you downloaded to your device by opening up a terminal (Linux or Mac) or Command Prompt (Windows) and running the following:

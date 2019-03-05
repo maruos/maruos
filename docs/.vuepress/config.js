@@ -22,6 +22,7 @@ module.exports = {
             '',
             '/user/installation',
             '/user/upgrading',
+            '/user/google-apps',
             '/user/tips',
           ]
         }

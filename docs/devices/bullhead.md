@@ -21,6 +21,8 @@ The Nexus 5X is the successor to the Nexus 5 and is the first Maru device to sup
 
 1. [Download](https://maruos.com/downloads/) the latest update zip for your device (it will look like `maru-v0.x.y-update-bullhead-<sha256>.zip`)
 
+    * (Optional) If you would like to [restore access to the Play store](../user/google-apps.md), you can download a third-party Google Apps zip and install it alongside Maru during this installation process.
+
 2. Push the update zip to your device by opening up a terminal (Linux or Mac) or Command Prompt (Windows) and running the following:
 
 ```
