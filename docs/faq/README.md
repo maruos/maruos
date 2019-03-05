@@ -110,7 +110,7 @@ For historical reasons, TVs frequently use something called overscan that can ca
 
 ### How can I get access to the Play store on Maru?
 
-Maru does not include the Play store out of the box. If you would like to restore access to the Play store, please see [this forum guide](https://groups.google.com/d/msg/maru-os/S8PUEqqK10M/NMI9LFUyAQAJ).
+Maru does not include the Play store out of the box. If you would like to restore access to the Play store, please see [this guide](../user/google-apps.md).
 
 ### How can I verify that my Maru image hasn't been corrupted or tampered with?
 
