@@ -40,7 +40,7 @@ Keep in mind that the best Maru experience requires hardware HDMI support via ei
 
 Devices without hardware HDMI support (SlimPort or MHL) have a few options for displaying Maru Desktop:
 
-* **Wireless display streaming**: This is officially tested on Chromecast, although other wireless adapters *should* work as long as they are supported by Android (Miracast has been confirmed to work by some of our users). Note that you may need to [restore Google Apps](TODO) to use this feature with Chromecast.
+* **Wireless display streaming**: This is officially tested on Chromecast, although other wireless adapters *should* work as long as they are supported by Android (Miracast has been confirmed to work by some of our users). Note that you may need to [restore Google Apps](../user/google-apps.md) to use this feature with Chromecast.
 
 * **DisplayLink**: DisplayLink can stream content to an external display over USB without the requirement for HDMI hardware built into the device, although it requires a DisplayLink dock and installation of the DisplayLink Android app. This has been confirmed to work by our users on devices without HDMI support.
 
