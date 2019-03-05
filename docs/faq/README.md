@@ -16,8 +16,6 @@ Read the [Installation Guide](../user/installation.md) and you'll be up and runn
 
 * Nexus 5 (hammerhead)
 * Nexus 5X (bullhead)
-* Samsung S9+ (star2lte)
-  * SM-G965F
 
 #### 0.4 (legacy)
 
