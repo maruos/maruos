@@ -18,6 +18,10 @@ These are the same prerequisites for installing Maru on your device:
 
 1. Download Play apps from a third-party packager like Open Gapps depending on your device architecture and the Maru version you are installing:
 
+::: warning Note
+Since Maru requires a larger system parition than standard ROMs, we highly recommend using the OpenGapps **pico** variant to avoid out of space issues on devices with smaller system partitions, such as the Nexus 5.
+:::
+
    | Device                   | Architecture |
    | ------------------------ | ------------ |
    | Nexus 5 (hammerhead)     | ARM          |
