@@ -33,7 +33,7 @@ Since Maru requires a larger system parition than standard ROMs, we highly recom
    | Maru Version                | Open Gapps |
    | --------------------------- | ---------- |
    | 0.6 (Android 8.1)           | [ARM64](https://opengapps.org/?arch=arm64&api=8.1&variant=pico) [ARM](https://opengapps.org/?arch=arm&api=8.1&variant=pico) |
-   | 0.3  (Android 6.0)          | [ARM](http://opengapps.org/?arch=arm&api=6.0&variant=pico) |
+   | 0.3 - 0.4  (Android 6.0)    | [ARM](http://opengapps.org/?arch=arm&api=6.0&variant=pico) |
    | 0.2 and below (Android 5.1) | [ARM](http://opengapps.org/?arch=arm&api=5.1&variant=pico) |
 
 2. Navigate to the folder your downloaded the Google Apps zip and push it to your device in a terminal (Mac or Linux) or Command Prompt (Windows):
