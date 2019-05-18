@@ -25,7 +25,7 @@ If you don't already have a workspace ready, create and enter a workspace direct
 
 ...and sync the code into your workspace:
 
-    $ repo init -u https://github.com/maruos/manifest -b master
+    $ repo init -u https://github.com/maruos/manifest -b maru-0.6
     $ repo sync
 
 *Tip: `repo sync` can take a LONG time. Your first sync will download 50GB+ of sources!*
