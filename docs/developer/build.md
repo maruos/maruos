@@ -9,7 +9,7 @@ Maru hooks into the AOSP build system for the majority of the build process.
 The one exception to the AOSP build system is the build process for the desktop image.
 
     $ cd vendor/maruos/blueprints
-    $ ./build.sh -b debian -n jessie
+    $ ./build.sh -b debian -n stretch-container -- -r stretch -a arm64 --minimal
 
 *Tip: You may need to run the last `./build.sh` script with sudo if you are using docker.*
 
@@ -54,9 +54,7 @@ Then select the device you'd like to build. Any of the devices with the prefix `
 
 ### Now build!
 
-    $ make -jX
-
-...where X is the number of CPU cores on your dev machine.
+    $ mka  # performant wrapper for parallel make
 
 *Tip: This build can take a long time. Set up [ccache](https://source.android.com/source/initializing.html#optimizing-a-build-environment) to speed things up.*
 
