@@ -40,6 +40,10 @@ Uncompress each of the binary tars and run them (they are self-extracting script
 
 You will now have the blobs under `vendor/`.
 
+#### Nexus 5x (bullhead)
+For the Nexus 5X, the vendor blobs are not sufficient. The device will bootloop if you use the binary blobs as described above.  
+Please see the [bullhead device README](https://github.com/maruos/android_device_lge_bullhead/blob/maru-0.6/README.md) to prepare the vendor directory from a factory image.
+
 ### Configure the build system
 
 You'll need to source some environment variables to initialize the build system. From the top of your $WORKSPACE:
