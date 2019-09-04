@@ -62,9 +62,9 @@ Once you're confident your port works well, and you can commit to being a device
 
 ### Container login failures
 
-Kernels before 3.15, especially 3.10, cause PAM errors that prevent user authentication in secondary namespaces--even with correct credentials! This is known to affect the Nexus 5X and Nexus 6P. Note that this *does not* affect the 3.4 kernel for the Nexus 5 or Nexus 7.
+Kernels before 3.15, especially 3.10, cause PAM errors that prevent user authentication in secondary namespaces—even with correct credentials! This is known to affect the Nexus 5X and Nexus 6P. Note that this *does not* affect the 3.4 kernel for the Nexus 5 or Nexus 7.
 
-**Fix**: apply this backported 3.15 kernel patch https://github.com/maruos/android_kernel_msm/commit/86406af61755852d74d23b051d4327565528a506
+**Fix**: apply this backported 3.15 kernel [patch](https://github.com/maruos/android_kernel_msm/commit/86406af61755852d74d23b051d4327565528a506)
 
 Related threads:
 * https://groups.google.com/d/msg/maru-os-dev/-K_lysxngD4/1qtkeMgYCwAJ
