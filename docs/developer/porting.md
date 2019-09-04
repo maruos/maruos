@@ -80,7 +80,7 @@ If porting to an arm64 device and you are using the prebuilt armhf desktop conta
 
 **Fix**: Please build an arm64 desktop container with the master branch of https://github.com/maruos/blueprints and use that for your builds:
 
-    $ ./build.sh -n jessie -- -a arm64
+    $ ./build.sh -n debian -- -a arm64 --minimal
 
 Related threads:
 * https://groups.google.com/d/msg/maru-os-dev/-K_lysxngD4/FERf_ZGjCwAJ
