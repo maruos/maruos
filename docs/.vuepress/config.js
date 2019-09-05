@@ -11,7 +11,8 @@ module.exports = {
       { text: 'User Guide', link: '/user/' },
       { text: 'Developer Guide', link: '/developer/' },
       { text: 'Devices', link: '/devices/' },
-      { text: 'FAQ', link: '/faq/' }
+      { text: 'FAQ', link: '/faq/' },
+      { text: 'Release Notes', link: '/release-notes/' }
     ],
     sidebar: {
       '/user/': [
