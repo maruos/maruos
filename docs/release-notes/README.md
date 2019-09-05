@@ -5,7 +5,9 @@ sidebarDepth: 0
 
 # Release Notes
 
-## v0.6.7 (2019-09-03)
+## v0.6.7
+
+2019-09-03
 
 ### New
 
@@ -25,7 +27,9 @@ sidebarDepth: 0
 
 * `hammerhead` Firefox crashes immediately on start-up due to the outstanding Debian armhf bug [#909498](https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=909498). Please run `sudo apt install firefox-esr/jessie` to downgrade to a working version.
 
-## v0.6.6 (2019-02-19)
+## v0.6.6
+
+2019-02-19
 
 This is the first official release of Maru 0.6 Okinawa! Read the [release blog post](https://maruos.com/blog/2019/announcing-maru-0.6-okinawa.html) for all the details.
 
@@ -43,7 +47,9 @@ This is the first official release of Maru 0.6 Okinawa! Read the [release blog p
 
 * Maru Desktop doesn't always utilize all available CPUs ([#58](https://github.com/maruos/maruos/issues/58))
 
-## v0.4.1 (2017-06-03)
+## v0.4.1
+
+2017-06-03
 
 ### Fixes
 
@@ -69,7 +75,9 @@ When upgrading Maru without a factory reset (see [Upgrading Guide: Option 2]), y
 [Upgrading Guide: Option 2]: https://github.com/maruos/maruos/wiki/Upgrading#option-2-install-the-update-zip-without-a-factory-reset
 [manually upgrade]: https://github.com/maruos/maruos/wiki/Upgrading#desktop-updates-1
 
-## v0.4 (2017-03-24)
+## v0.4
+
+2017-03-24
 
 ### New
 
@@ -99,7 +107,9 @@ When upgrading Maru without a factory reset (see [Upgrading Guide: Option 2]), y
 
 * Nexus 7 2013 Wi-Fi (flo) builds updated to use minimal Maru Desktop image to free up space on system partition ([#66](https://github.com/maruos/maruos/issues/66))
 
-## v0.3 (2016-11-03)
+## v0.3
+
+2016-11-03
 
 ### Features
 
@@ -133,43 +143,59 @@ Assuming the user account is 'maru':
 
 After restarting the desktop, the sdcard mount will be accessible again.
 
-## v0.2.4 (2016-08-24)
+## v0.2.4
+
+2016-08-24
 
 Open-source version of v0.2.3.
 
 Note there is no official release since it is basically the same as v0.2.3.
 
-## v0.2.3 (2016-06-04)
+## v0.2.3
+
+2016-06-04
 
 This is the first public release of Maru OS!
 
-## v0.2.3-beta (2016-05-10)
+## v0.2.3-beta
+
+2016-05-10
 
 * Mount entire sdcard in desktop
 * Update desktop image with latest packages
 * Fix dropped Bluetooth device key events
 
-## v0.2.2-beta (2016-03-08)
+## v0.2.2-beta
+
+2016-03-08
 
 * Fix system time defaulting to 1970s on reboot (after network time sync-up)
 * Add "Maru version" to Settings > About Phone
 * Strip harmless audit logs
 
-## v0.2.1-beta (2016-02-19)
+## v0.2.1-beta
+
+2016-02-19
 
 * Add HELP.txt instructions to restore gapps from 3rd party
 * Strip verbose logging
 
-## v0.2-beta (2016-02-16)
+## v0.2-beta
+
+2016-02-16
 
 * Properly format storage for 32GB Nexus 5
 * Recover properly from factory resets
 * Optimize image size
 
-## v0.1a-beta (2016-02-08)
+## v0.1a-beta
+
+2016-02-08
 
 * Fix app compatibility
 
-## v0.1-beta (2016-02-04)
+## v0.1-beta
+
+2016-02-04
 
 * Initial release
