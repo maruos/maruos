@@ -11,7 +11,7 @@ sidebarDepth: 0
 
 ### New
 
-* Nexus 6P (angler) has been added to the build roster (thanks **@bootlessxfly** for the original port). *We are looking for a new maintainer for angler - please get in touch on our [dev forum](https://groups.google.com/forum/#!topic/maru-os-dev) if you would like to help out!*
+* Nexus 6P (angler) has been added to the build roster (thanks **@bootlessxfly** for the original port). *We are looking for a new maintainer for angler - please get in touch on our [dev forum](https://groups.google.com/forum/#!forum/maru-os-dev) if you would like to help out!*
 
 ### Fixes
 
