@@ -27,6 +27,7 @@ Since Maru requires a larger system parition than standard ROMs, we highly recom
    | Nexus 5 (hammerhead)     | ARM          |
    | Nexus 7 2013 Wi-Fi (flo) | ARM          |
    | Nexus 5X (bullhead)      | ARM64        |
+   | Nexus 6P (angler)        | ARM64        |
    | Samsung S9+ (star2lte)   | ARM64        |
 
 
