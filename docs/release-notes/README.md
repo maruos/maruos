@@ -15,6 +15,7 @@ sidebarDepth: 0
 
 ### Fixes
 
+* apt upgrade fails when upgrading packages with system user/groups ([#110](https://github.com/maruos/maruos/issues/110))
 * `hammerhead` Audio distortion when using a BT headset for calls ([#104](https://github.com/maruos/maruos/issues/104))
 * `hammerhead` Wi-Fi Hotspot ([#115](https://github.com/maruos/maruos/issues/115))
 * Android security patches up through August 2019
