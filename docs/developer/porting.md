@@ -43,7 +43,31 @@ Example: https://github.com/maruos/android_kernel_bullhead
 
 This is the actual Linux kernel source for your device. The kernel source is under the GPL license, so your device vendor should make it available somewhere on their website.
 
-**Customizations needed:** You will need to create a new defconfig that enables some kernel options that Maru OS requires. See this [patch](https://github.com/maruos/android_kernel_bullhead/commit/a414e3e60199b01e569531af14a9845df3a0f66a) for bullhead as an example. Read [[Kernel]] for more details.
+**Customizations needed:** You will need to create a new defconfig that enables some kernel options that Maru OS requires. See this [patch](https://github.com/maruos/android_kernel_bullhead/commit/a414e3e60199b01e569531af14a9845df3a0f66a) for bullhead as an example.
+
+The easiest way to get the ball rolling is to start off with the default kernel defconfig for the device. For bullhead, this would be `arch/arm64/configs/bullhead_defconfig`. You can tell the kernel make system to use this defconfig with:
+
+    $ ARCH=arm64 make bullhead_defconfig
+    
+To check which options are missing from your kernel config that are required for Maru, you can use the `lxc-checkconfig` tool from the Linux Containers Project (LXC):
+
+    $ CONFIG=.config lxc-checkconfig
+
+You will need to enable any options that are marked as "required".
+
+You can add these options directly to the `.config` or you can open up the kernel's configuration UI by running:
+
+    $ ARCH=arm64 make menuconfig
+    
+After you are happy with your config, save it as a defconfig with:
+
+    $ ARCH=arm64 make savedefconfig
+    
+You can then copy your new Maru-supported kernel defconfig over to `arch/arm64/configs`, where the build process can pick it up:
+
+    $ mv defconfig arch/arm64/configs/maru-bullhead_defconfig
+
+Now [update your device config](https://github.com/maruos/android_device_lge_bullhead/commit/d6792569a47e1c30b517a944c0dfae58e3aa9547#diff-78ec901c9c29ef6a20b79592fd93f941R34) to use your new kernel config!
 
 ## How do I get my port accepted as an official device?
 
