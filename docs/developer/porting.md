@@ -55,6 +55,19 @@ To check which options are missing from your kernel config that are required for
 
 You will need to enable any options that are marked as "required".
 
+In general, you will need to make sure you have the following minimal options enabled:
+
+```
+CONFIG_CGROUP_DEVICE=y
+CONFIG_CPUSETS=y
+CONFIG_DEVTMPFS=y
+CONFIG_DEVPTS_MULTIPLE_INSTANCES=y
+CONFIG_NAMESPACES=y
+CONFIG_SYSVIPC=y
+```
+
+*Tip: Some device kernels fail to compile with CONFIG_USER_NS=y, which is selected by default by CONFIG_NAMESPACES=y. This is optional for Maru OS, so you can disable it (add a line # CONFIG_USER_NS is not set in your defconfig) if it's causing build errors.*
+
 You can add these options directly to the `.config` or you can open up the kernel's configuration UI by running:
 
     $ ARCH=arm64 make menuconfig
