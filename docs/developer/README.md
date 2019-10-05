@@ -30,7 +30,7 @@ The branches that we actively develop are:
 | Branch    | Base        |
 | --------- | ----------- |
 | `master`  | AOSP 6.0 |
-| `cm-14.1` | LineageOS 14.1 (AOSP 7.1) |
+| `maru-0.5` | LineageOS 14.1 (AOSP 7.1) |
 | `maru-0.6` | LineageOS 15.1 (AOSP 8.1) |
 
 ## Getting Help
