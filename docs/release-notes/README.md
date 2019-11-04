@@ -5,6 +5,19 @@ sidebarDepth: 0
 
 # Release Notes
 
+## v0.6.8
+
+2019-10-07
+
+### New
+
+* Google Pixel (sailfish) has been added to the build roster (thanks **@utzcoz**). *This is an early pre-release build so please help us test to confirm it is stable.*
+
+### Fixes
+
+* `hammerhead` Firefox crashes on start-up ([blueprints@eb4a1b8](https://github.com/maruos/blueprints/commit/eb4a1b8b8fabb753dfea8b28d23df4cba9d60455))
+* Android security patches up through September 2019
+
 ## v0.6.7
 
 2019-09-03
