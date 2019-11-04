@@ -17,6 +17,7 @@ Read the [Installation Guide](../user/installation.md) and you'll be up and runn
 * Nexus 5 (hammerhead)
 * Nexus 5X (bullhead)
 * Nexus 6P (angler)
+* Google Pixel (sailfish)
 
 #### 0.4 (legacy)
 
