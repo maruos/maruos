@@ -11,7 +11,7 @@ sidebarDepth: 0
 
 ### New
 
-* Google Pixel (sailfish) has been added to the build roster (thanks **@utzcoz**). *This is an early pre-release build so please help us test to confirm it is stable.*
+* [Google Pixel (sailfish)](/devices/sailfish.md) has been added to the build roster (thanks **@utzcoz**). *This is an early pre-release build so please help us test to confirm it is stable.*
 
 ### Fixes
 
