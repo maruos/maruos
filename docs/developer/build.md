@@ -82,6 +82,16 @@ You will need to give your container USB access by bind mounting `/dev/bus/usb`:
         -v /dev/bus/usb:/dev/bus/usb \
         -v ~/path/to/$WORKSPACE:/var/maru \
         pdsouza/maruos-devbox
+        
+## Building an OTA zip
+
+In addition to doing a standard build, you can also build an OTA zip for your device that can be flashed via a custom recovery like TWRP. These OTA zips are the standard format for distributing official Maru images.
+
+To generate the OTA zip:
+
+    $ mka dist
+    
+After the build is complete, you will find the OTA zip in a file like `out/dist/maru_<device>-ota-eng.xxx.zip`. 
 
 ## References / Further Reading
 * [AOSP build docs](https://source.android.com/source/requirements.html)
