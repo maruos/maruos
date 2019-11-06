@@ -36,8 +36,4 @@ Just take a look at the [Dockerfile](https://github.com/pdsouza/maruos-docker/bl
 
 ## USB Access
 
-Whether you are using Docker or not, you will need to configure USB access on your host to flash your builds:
-
-    $ wget -S -O - http://source.android.com/source/51-android.rules | sed "s/<username>/$USER/" | sudo tee >/dev/null /etc/udev/rules.d/51-android.rules; sudo udevadm control --reload-rules
-
-See "Configuring USB Access" in the [AOSP docs](https://source.android.com/source/initializing.html#setting-up-a-linux-build-environment) for more info.
+Whether you are using Docker or not, you will need to configure USB access on your host to flash your builds by following the instructions under "Set up a device for development" in the [AOSP docs](https://developer.android.com/studio/run/device.html#setting-up).
