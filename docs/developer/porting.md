@@ -121,3 +121,7 @@ If porting to an arm64 device and you are using the prebuilt armhf desktop conta
 
 Related threads:
 * https://groups.google.com/d/msg/maru-os-dev/-K_lysxngD4/FERf_ZGjCwAJ
+
+### Linux desktop black screen on Rockchip device
+
+If porting to rockchip device, and Linux desktop is black screen, please make sure rockchip drm_gralloc give the write permission to surface fd. For more detail, please see [issue Rockchip porting problem](https://github.com/maruos/maruos/issues/129) and [issue mmap failed on rockchip devices](https://github.com/maruos/blueprints/issues/11).
