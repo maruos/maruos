@@ -4,7 +4,7 @@ Maru hooks into the AOSP build system for the majority of the build process.
 
 ## Build the desktop image
 
-*Tip: You can just download the latest prebuilt image from [here](https://github.com/maruos/blueprints/releases) if you don't want to build the desktop image yourself. It can take up to 30 minutes for the build to finish.*
+*Tip: You can just download the latest prebuilt image from [here](https://github.com/maruos/builds/releases) if you don't want to build the desktop image yourself. It can take up to 30 minutes for the build to finish.*
 
 The one exception to the AOSP build system is the build process for the desktop image.
 
