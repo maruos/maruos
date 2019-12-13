@@ -31,7 +31,7 @@ Before your changes can be accepted, you will need to explicitly confirm that
 you have the right to submit your changes under MOSP's open source licenses.
 MOSP takes the same approach as the Linux Kernel does--all you have to do is
 sign the Developer Certificate of Origin, Version 1.1 (verbatim from
-http://developercertificate.org):
+https://developercertificate.org):
 
 ```
 Developer Certificate of Origin
