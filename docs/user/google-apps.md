@@ -30,6 +30,7 @@ Since Maru requires a larger system parition than standard ROMs, we highly recom
    | Nexus 6P (angler)        | ARM64        |
    | Samsung S9+ (star2lte)   | ARM64        |
    | Pixel (sailfish)         | ARM64        |
+   | Pixel XL (marlin)        | ARM64        |
 
 
    | Maru Version                | Open Gapps |
