@@ -29,9 +29,9 @@ There are usually proprietary binary drivers ("blobs") you'll need to download t
 
 For Nexus devices, you can download the blobs straight from the [Nexus Binaries page](https://developers.google.com/android/nexus/drivers). Make sure to select the right binaries for your device and build version!
 
-For example, let's say you want to build Maru OS v0.2.3 for Nexus 5 (hammerhead). v0.2.3 is based on android-5.1.1_r14 (LMY48M), so you would download the [hammerhead LMY48M binaries](https://developers.google.com/android/nexus/drivers#hammerheadlmy48m).
+For example, let's say you want to build Maru OS v0.6 for Nexus 5X (bullhead). v0.6 is based on android-8.1.0_r52 (OPM7.181205.001), so you would download the [bullhead OPM7.181205.001 binaries](https://developers.google.com/android/drivers#bullheadopm7.181205.001).
 
-*Tip: To find the right binary version to select, check the manifest file that you used to sync your workspace. You can find the AOSP tag that Maru OS is based on in the manifest's [default.xml](https://github.com/maruos/manifest/blob/master/default.xml#L10). You can correlate this to the build code listed on the Nexus Binaries page [here](https://source.android.com/source/build-numbers.html).*
+*Tip: To find the right binary version to select, check the manifest file that you used to sync your workspace. You can find the AOSP tag that Maru OS is based on in the manifest's [default.xml](https://github.com/maruos/manifest/blob/maru-0.6/lineage/default.xml#L14). (Verify that the branch you're on is the same as the version of MaruOS you wanna build) You can correlate this to the build code listed on the Nexus Binaries page [here](https://source.android.com/source/build-numbers.html).*
 
 Uncompress each of the binary tars and run them (they are self-extracting scripts) from the root of your $WORKSPACE, making sure you read and agree to the license terms:
 
