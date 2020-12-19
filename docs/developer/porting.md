@@ -62,11 +62,14 @@ CONFIG_CGROUP_DEVICE=y
 CONFIG_CPUSETS=y
 CONFIG_DEVTMPFS=y
 CONFIG_DEVPTS_MULTIPLE_INSTANCES=y
-CONFIG_NAMESPACES=y
 CONFIG_SYSVIPC=y
+CONFIG_NAMESPACES=y
+CONFIG_UTS_NS=y
+CONFIG_PID_NS=y
+CONFIG_IPC_NS=y
 ```
 
-*Tip: Some device kernels fail to compile with CONFIG_USER_NS=y, which is selected by default by CONFIG_NAMESPACES=y. This is optional for Maru OS, so you can disable it (add a line # CONFIG_USER_NS is not set in your defconfig) if it's causing build errors.*
+*Tip: Some device kernels fail to compile with CONFIG_USER_NS=y, which is selected by default by CONFIG_NAMESPACES=y. This is optional for Maru OS, so you can disable it (add a line `# CONFIG_USER_NS is not set` in your defconfig) if it's causing build errors.*
 
 You can add these options directly to the `.config` or you can open up the kernel's configuration UI by running:
 
