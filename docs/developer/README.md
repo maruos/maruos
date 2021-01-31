@@ -32,6 +32,7 @@ The branches that we actively develop are:
 | `master`  | AOSP 6.0 |
 | `maru-0.5` | LineageOS 14.1 (AOSP 7.1) |
 | `maru-0.6` | LineageOS 15.1 (AOSP 8.1) |
+| `maru-0.7` | LineageOS 16.0 (AOSP 9.0) |
 
 ## Getting Help
 
