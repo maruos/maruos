@@ -26,7 +26,7 @@ Please remember to use a strong password!
 
 ### Access your desktop with SSH
 
-SSH is disabled on Maru Desktop for security reasons, so you will need to first connect your device to an external display and pair up a BT keyboard and mouse to access the desktop and enable SSH for future access.
+SSH is disabled on Maru Desktop for security reasons, so you will need to first connect your device to an external display and pair up a BT keyboard and mouse to access the desktop and enable SSH for future access. (If you don't have an external display, see the below tip for setting up your desktop via a PC.)
 
 1. Before enabling SSH for the first time, please change the default password on the default maru account. This can easily be done by opening up a Terminal, typing `passwd maru`, and following the prompts.
 
@@ -56,6 +56,17 @@ $ sudo systemctl start ssh
 1. In a VNC client (could be your phone) connect to the phone's IP address with the password supplied.
 
 Thanks @curiousercreative for the original tip!
+
+### Use a PC to set up your desktop without an external display
+
+1. Get root on your phone by going to Settings > System > Developer options and enabling Android debugging (adb) and Root access (adb only)
+2. Run `adb root` on a PC with your phone connected via USB
+3. Run `adb shell`
+4. Run `lxc-start -n default`
+
+Wait and you will be greeted with a login shell into your desktop. You can now login, enable ssh, vnc, change password, etc.
+
+*Thanks [@luka177](https://github.com/maruos/maruos/issues/78#issuecomment-585113328) for this tip!*
 
 ### Build and replace Maru's Debian installation
 
