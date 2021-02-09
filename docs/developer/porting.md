@@ -128,3 +128,7 @@ Related threads:
 ### Linux desktop black screen on Rockchip device
 
 If porting to rockchip device, and Linux desktop is black screen, please make sure rockchip drm_gralloc give the write permission to surface fd. For more detail, please see [issue Rockchip porting problem](https://github.com/maruos/maruos/issues/129) and [issue mmap failed on rockchip devices](https://github.com/maruos/blueprints/issues/11).
+
+### Desktop freezing or other anomalies
+
+See [#159](https://github.com/maruos/maruos/issues/159) for a possible fix.
