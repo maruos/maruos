@@ -55,13 +55,15 @@ When you are ready to install Maru, do the following:
 
 6. Tap the Maru update zip you pushed earlier (you may need to scroll down)
 
-7. Swipe right to confirm flash of Maru
+7. Make sure `Zip signature verification` is unselected to avoid checking signature
 
-8. Hit back till you are at the main screen, then `Wipe`
+8. Swipe right to confirm flash of Maru
 
-9. Swipe right to Factory Reset (this will still keep your back-ups on your sdcard)
+9. Hit back till you are at the main screen, then `Wipe`
 
-10. Tap `Reboot System`
+10.  Swipe right to Factory Reset (this will still keep your back-ups on your sdcard)
+
+11. Tap `Reboot System`
 
 ::: warning Note
 You may be asked to install SuperSU to root your device. If you know what
