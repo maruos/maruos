@@ -36,6 +36,10 @@ There are many ways to install TWRP, but here's one that works well.
 
         $ fastboot flash recovery <twrp filename>.img
 
+    If above command failed with no `recovery` partition error, you can try the following command:
+
+        $ fastboot flash boot <twrp filename>.img
+
 5.  Use the `Volume Up` button on your device to cycle through the bootloader options
     to "Recovery mode" and hit the `Power` button to boot into TWRP recovery
 
