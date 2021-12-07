@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Pixel XL(marlin)
+# Pixel XL (marlin)
 
 Google official devices with the brilliant Android experience.
 
