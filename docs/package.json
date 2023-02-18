@@ -11,6 +11,6 @@
   "license": "Apache-2.0",
   "devDependencies": {
     "@vuepress/plugin-google-analytics": "^1.7.0",
-    "vuepress": "^1.7.0"
+    "vuepress": "^1.9.8"
   }
 }
