@@ -1,20 +1,23 @@
-module.exports = {
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics';
+import { defineUserConfig } from 'vuepress'
+
+export default defineUserConfig({
+  bundler: viteBundler(),
   title: "Maru Docs",
   description: "Maru Documentation",
   base: "/docs/",
   plugins: [
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "UA-72109002-1",
-      },
-    ],
+    googleAnalyticsPlugin({
+      id: "UA-72109002-1",
+    }),
   ],
-  themeConfig: {
+  theme: defaultTheme({
     repo: "maruos/maruos",
     docsDir: "docs",
-    editLinks: true,
-    nav: [
+    editLink: true,
+    navbar: [
       { text: "User Guide", link: "/user/" },
       { text: "Developer Guide", link: "/developer/" },
       { text: "Devices", link: "/devices/" },
@@ -24,7 +27,7 @@ module.exports = {
     sidebar: {
       "/user/": [
         {
-          title: "User Guide",
+          text: "User Guide",
           collapsable: false,
           children: [
             "",
@@ -37,11 +40,15 @@ module.exports = {
       ],
       "/developer/": [
         {
-          title: "Developer Guide",
+          text: "Developer Guide",
           collapsable: false,
           children: ["", "env", "download", "build", "porting"],
         },
       ],
+      '/faq/': false,
+      '/release-notes/': false,
+      '/devices/': false,
+      '/': false,
     },
-  },
-};
+  }),
+})
