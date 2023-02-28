@@ -4,7 +4,7 @@ prev: false
 next: false
 ---
 
-# Pixel 3a XL(bonito)
+# Pixel 3a XL (bonito)
 
 Google official devices with the brilliant Android experience.
 
