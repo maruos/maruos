@@ -24,6 +24,18 @@ Maru is a fairly large project with code split across several repositories. You 
 
 File them as issues on this repository.
 
+### Build and run documentation site locally
+
+```shell
+export NODE_OPTIONS=--openssl-legacy-provider
+cd docs
+npm install
+npm run build
+npm run dev
+```
+
+After that, we can visit http://localhost:8080/docs to verify documentation sites.
+
 ### Contribute
 
 Check out the [wiki](https://github.com/maruos/maruos/wiki) to get started.
