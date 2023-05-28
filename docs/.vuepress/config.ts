@@ -1,20 +1,21 @@
-module.exports = {
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import { defaultTheme } from 'vuepress'
+
+export default {
   title: "Maru Docs",
   description: "Maru Documentation",
   base: "/docs/",
   plugins: [
-    [
-      "@vuepress/google-analytics",
-      {
-        ga: "UA-72109002-1",
-      },
-    ],
+    googleAnalyticsPlugin({
+      id: 'UA-72109002-1'
+    })
   ],
-  themeConfig: {
+  theme: defaultTheme({
     repo: "maruos/maruos",
     docsDir: "docs",
-    editLinks: true,
-    nav: [
+    editLink: true,
+    editLinkText: "Help us improve this page!",
+    navbar: [
       { text: "User Guide", link: "/user/" },
       { text: "Developer Guide", link: "/developer/" },
       { text: "Devices", link: "/devices/" },
@@ -24,8 +25,8 @@ module.exports = {
     sidebar: {
       "/user/": [
         {
-          title: "User Guide",
-          collapsable: false,
+          text: "User Guide",
+          collapsible: false,
           children: [
             "",
             "/user/installation",
@@ -37,11 +38,11 @@ module.exports = {
       ],
       "/developer/": [
         {
-          title: "Developer Guide",
-          collapsable: false,
+          text: "Developer Guide",
+          collapsible: false,
           children: ["", "env", "download", "build", "porting"],
         },
       ],
     },
-  },
+  }),
 };
