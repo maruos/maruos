@@ -12,7 +12,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.19",
     "@vuepress/plugin-google-analytics": "^2.0.0-rc.80",
-    "@vuepress/theme-default": "^2.0.0-rc.91",
+    "@vuepress/theme-default": "^2.0.0-rc.95",
     "sass-embedded": "^1.86.3",
     "vuepress": "^2.0.0-rc.20"
   }
