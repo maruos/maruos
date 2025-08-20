@@ -10,7 +10,7 @@
   "author": "The Maru OS Project Authors",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@vuepress/bundler-vite": "^2.0.0-rc.23",
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
     "@vuepress/plugin-google-analytics": "^2.0.0-rc.107",
     "@vuepress/theme-default": "^2.0.0-rc.110",
     "sass-embedded": "^1.90.0",
