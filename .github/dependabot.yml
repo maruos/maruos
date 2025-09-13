@@ -12,6 +12,7 @@ updates:
     groups:
       vuepress-packages:
         patterns:
+          - "vuepress"
           - "vuepress*"
           - "@vuepress/*"
           - "vuepress-*"
