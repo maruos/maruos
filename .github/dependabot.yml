@@ -9,3 +9,12 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
+    groups:
+      vuepress-packages:
+        patterns:
+          - "vuepress*"
+          - "@vuepress/*"
+          - "vuepress-*"
+        update-types:
+          - "minor"
+          - "patch"
