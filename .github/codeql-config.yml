@@ -1,0 +1,11 @@
+paths:
+  # Only analyze source files in the project root and the .vuepress directory
+  - '*'
+  - '.vuepress'
+paths-ignore:
+  # Explicitly ignore the common node_modules and the built output
+  - 'node_modules'
+  - 'dist'
+  # If you have specific directories containing only markdown/assets,
+  # you can exclude them here to speed up the scan.
+  - 'docs/**/assets'
